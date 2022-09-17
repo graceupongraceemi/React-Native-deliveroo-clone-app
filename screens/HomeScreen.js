@@ -14,7 +14,8 @@ import {
   SearchIcon,
   AdjustmentsIcon
 } from 'react-native-heroicons/outline';
-import Categories from '../components/categories';
+import Categories from '../components/Categories';
+import FeaturedRow from '../components/FeaturedRow';
 
 const HomeScreen = () => {
   const navigation = useNavigation();
@@ -71,6 +72,26 @@ const HomeScreen = () => {
         <Categories />
 
         {/* Featured Rows */}
+        <FeaturedRow
+          id='123'
+          title='Featured'
+          description='Paid placements from our partners'
+        />
+
+        {/* Tasty Biscounts */}
+        <FeaturedRow
+          id='1234'
+          title='Featured'
+          description='Paid placements from our partners'
+        />
+
+        {/* Offers near you */}
+        <FeaturedRow
+          id='12345'
+          title='Featured'
+          description='Paid placements from our partners'
+          f
+        />
       </ScrollView>
     </SafeAreaView>
   );
