@@ -81,16 +81,15 @@ const HomeScreen = () => {
         {/* Tasty Biscounts */}
         <FeaturedRow
           id='1234'
-          title='Featured'
-          description='Paid placements from our partners'
+          title='Tasty Discounts'
+          description='Everyone has been enjoying these juicy discounts!'
         />
 
         {/* Offers near you */}
         <FeaturedRow
           id='12345'
-          title='Featured'
-          description='Paid placements from our partners'
-          f
+          title='Offers near you!'
+          description='Why not support your local restaurant tonight!'
         />
       </ScrollView>
     </SafeAreaView>

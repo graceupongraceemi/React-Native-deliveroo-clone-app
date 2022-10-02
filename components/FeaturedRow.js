@@ -21,7 +21,31 @@ const FeaturedRow = ({ id, title, description }) => {
         showHorizontalScrollIndicator={false}
         className='pt-4'
       >
-        {/* RestaurantCards */}
+        {/* RestaurantCards... */}
+        <RestaurantCard
+          id={123}
+          imgUrl='https://media.istockphoto.com/photos/futomaki-sushi-picture-id183341110?b=1&k=20&m=183341110&s=170667a&w=0&h=AiW7jAdyHaonpvA00LKT8mpC1xmSK5pZNqIl4cNd75M='
+          title='Yo! Sushi'
+          rating={4.5}
+          genre='Japanese'
+          address='123 Main St'
+          short_description='This is a Test description'
+          dishes={[]}
+          long={20}
+          lat={0}
+        />
+        <RestaurantCard
+          id={123}
+          imgUrl='https://media.istockphoto.com/photos/futomaki-sushi-picture-id183341110?b=1&k=20&m=183341110&s=170667a&w=0&h=AiW7jAdyHaonpvA00LKT8mpC1xmSK5pZNqIl4cNd75M='
+          title='Yo! Sushi'
+          rating={4.5}
+          genre='Japanese'
+          address='123 Main St'
+          short_description='This is a Test description'
+          dishes={[]}
+          long={20}
+          lat={0}
+        />
         <RestaurantCard
           id={123}
           imgUrl='https://media.istockphoto.com/photos/futomaki-sushi-picture-id183341110?b=1&k=20&m=183341110&s=170667a&w=0&h=AiW7jAdyHaonpvA00LKT8mpC1xmSK5pZNqIl4cNd75M='
